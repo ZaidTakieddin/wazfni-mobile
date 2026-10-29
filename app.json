@@ -1,0 +1,88 @@
+{
+  "expo": {
+    "name": "wazfni",
+    "slug": "wazfni",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/wazfni.png",
+    "scheme": "wazfni",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zaidtakieddin.wazfni",
+      "infoPlist": {
+        "ExpoLocalization_supportsRTL": true,
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/wazfni.png",
+        "backgroundColor": "#054239",
+        "resizeMode": "contain"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.zaidtakieddin.wazfni",
+      "allowBackup": true,
+      "softwareKeyboardLayoutMode": "pan",
+      "supportsRTL": true,
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/wazfni.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-dev-client",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/wazfni.png",
+          "imageWidth": 250,
+          "resizeMode": "contain",
+          "backgroundColor": "#054239"
+        }
+      ],
+      "expo-secure-store",
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps.636000833085-krj1cjto4qnfn9itqof9o44c40msik7t"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/wazfni.png",
+          "color": "#054239",
+          "defaultChannel": "default",
+          "sounds": []
+        }
+      ],
+      "expo-font",
+      "expo-localization",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "1e439bde-c043-4182-b57d-e7dbc7c023b3"
+      },
+      "supportsRTL": true,
+      "forcesRTL": true
+    },
+    "notification": {
+      "icon": "./assets/images/wazfni.png",
+      "color": "#054239",
+      "iosDisplayInForeground": true,
+      "androidMode": "default",
+      "androidCollapsedTitle": "#{unread_notifications} notifications from Wazfni"
+    }
+  }
+}

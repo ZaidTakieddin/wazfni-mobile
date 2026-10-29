@@ -1,0 +1,28 @@
+# Build output
+dist/
+build/
+.expo/
+
+# Dependencies
+node_modules/
+
+# Cache
+.cache/
+.eslintcache
+
+# Environment files
+.env*
+!.env.example
+
+# Generated files
+*.generated.*
+*.min.js
+
+# Package files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Other
+.DS_Store
+*.log 
